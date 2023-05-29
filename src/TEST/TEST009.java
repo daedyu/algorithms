@@ -42,10 +42,8 @@ public class TEST009
             int c = C;
             int g = G;
             int t = T;
-            for (int j = i; j <= j + P; j++)
+            for (int j = i;(j < j + P) && (j < S); j++)
             {
-                if (j >= S) break;
-
                 switch (arr[j]) {
                     case 'A' -> a--;
                     case 'C' -> c--;
