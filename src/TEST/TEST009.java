@@ -51,7 +51,7 @@ public class TEST009
                     case 'C' -> c--;
                     case 'G' -> g--;
                     case 'T' -> t--;
-                    default -> {System.exit(1);}
+                    default -> System.exit(1);
                 }
             }
 
