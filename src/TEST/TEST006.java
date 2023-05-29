@@ -36,9 +36,13 @@ public class TEST006
         {
             for (int j = i; j < N; j++)
             {
+                if (i == N - 1)
+                {
+                    cnt += 1;
+                }
                 if (sumArr[j] - sumArr[i] == N)
                 {
-                    cnt++;
+                    cnt += 1;
                     break;
                 }
             }
