@@ -19,6 +19,11 @@ public class TEST017
 
         Arrays.sort(arr);
 
-        System.out.println(arr);
+
+
+        for (int i = N.length() - 1; i >= 0; i--)
+        {
+            System.out.print(arr[i]);
+        }
     }
 }
