@@ -41,6 +41,10 @@ public class TEST026
             A[edge2].add(edge1);
         }
 
+        DFS(V - 1, 1);
+
+        System.out.print("\n");
+
         BFS(V - 1, 1);
     }
 
